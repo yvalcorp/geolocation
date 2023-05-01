@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout'){
             steps{
-                git branch: 'main', url: 'https://github.com/yvalcorp/maven-web-app.git'
+                git branch: 'main', url: 'https://github.com/Hermann90/geo.git'
             }
         }
         stage('Code Build') {
